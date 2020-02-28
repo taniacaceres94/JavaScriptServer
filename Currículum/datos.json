@@ -1,0 +1,81 @@
+{
+    "cv" : [
+        {
+            "DatosPersonales" :
+             {
+                "nombre": "Tania",
+                "apellidos": "Cáceres Santy",
+                "fecha Nacimiento": "17/06/1994",
+                "Nacionalidad": "Española",
+                "Lenguajes" : [
+                    "Ingles-B1",
+                    "Español-Nativo"
+                    ],
+                "lenguajes de programacion": [
+                    "JavaScript",
+                    "PHP",
+                    "CSS3",
+                    "Java"
+                    ] 
+            }
+        },
+        {
+            "Contacto" :
+             {
+                "Teléfono" : "618366428",
+                "correo": "taniacaceres1994@gmail.com",
+                "Dirección" : "Calle Colombia 20"
+            }
+        },
+        {
+            "Redes Sociales" :{
+                "IG" : "tannis.baratheon",
+                "Twitter": "tannisbaratheon",
+                "Facebook" : "Tania Cáceres Santy"
+            }
+        },
+
+        {
+            "Intereses": [
+                "Dibujo",
+                "Música",
+                "Deporte",
+                "Videojuegos",
+                "Animalitos",
+                "Películas"
+            ]
+        },
+        {
+            "Formación académica":{
+
+                "Titulacion1" : "Técnico en Sistemas microinformáticos en Red",
+                "Centro1": "IES Arcipreste de Hita",
+                "Año1" : "2014/2016",
+                "Titulacion2": "Técnico superior en Administración de Sistemas Informáticos",
+                "Centro2": "IES Arcipreste de Hita",
+                "Año2": "2016/2018",
+                "Titulacion3" : "Técnico superior en Desarrollo de aplicaciones Multiplataforma",
+                "Centro3": "IES Arcipreste de Hita",
+                "Año3" : "2018/2020"
+
+            }
+        },
+        {
+            "Formación laboral" : {
+                "Laboral1" : "Técnico informático",
+                "Centro1": "Devoteam Drago",
+                "Año1": "2018"
+            }
+        },
+        {
+            "Professional Skills": [
+                "PHP",
+                "JavaScript",
+                "Java",
+                "CSS3",
+                "HTML5"
+            ]
+        }
+            
+    ]  
+}
