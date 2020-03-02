@@ -4,34 +4,29 @@
             "DatosPersonales" :
              {
                 "nombre": "Tania",
-                "apellidos": "Cáceres Santy",
+                "apellidos": "Cáceres",
+                "profesion" : "Web developer",
                 "fecha Nacimiento": "17/06/1994",
                 "Nacionalidad": "Española",
-                "Lenguajes" : [
-                    "Ingles-B1",
-                    "Español-Nativo"
-                    ],
-                "lenguajes de programacion": [
-                    "JavaScript",
-                    "PHP",
-                    "CSS3",
-                    "Java"
-                    ] 
+                "foto" : "io.PNG"
+                
             }
         },
         {
             "Contacto" :
              {
-                "Teléfono" : "618366428",
+                "telf" : "618366428",
                 "correo": "taniacaceres1994@gmail.com",
                 "Dirección" : "Calle Colombia 20"
             }
         },
         {
-            "Redes Sociales" :{
+            "RedesSociales" :{
                 "IG" : "tannis.baratheon",
                 "Twitter": "tannisbaratheon",
-                "Facebook" : "Tania Cáceres Santy"
+                "Facebook" : "Tania Cáceres Santy",
+                "linkedin": "Tania Caceres",
+                "git" : "github.com/taniacaceres94"
             }
         },
 
@@ -46,35 +41,50 @@
             ]
         },
         {
-            "Formación académica":{
+            "Educacion":{
 
                 "Titulacion1" : "Técnico en Sistemas microinformáticos en Red",
                 "Centro1": "IES Arcipreste de Hita",
-                "Año1" : "2014/2016",
+                "Año1" : "2014-2016",
+
                 "Titulacion2": "Técnico superior en Administración de Sistemas Informáticos",
                 "Centro2": "IES Arcipreste de Hita",
-                "Año2": "2016/2018",
+                "Año2": "2016-2018",
+
                 "Titulacion3" : "Técnico superior en Desarrollo de aplicaciones Multiplataforma",
                 "Centro3": "IES Arcipreste de Hita",
-                "Año3" : "2018/2020"
+                "Año3" : "2018-2020"
 
             }
         },
         {
-            "Formación laboral" : {
+            "experiencia" : {
                 "Laboral1" : "Técnico informático",
                 "Centro1": "Devoteam Drago",
-                "Año1": "2018"
+                "Año1": "2018",
+                "Experiencia1" : "Técnico informático, resolución de problemas (en práticas)."
             }
         },
         {
-            "Professional Skills": [
-                "PHP",
-                "JavaScript",
-                "Java",
-                "CSS3",
-                "HTML5"
-            ]
+            "idiomas":{
+                "idioma1" : "Español",
+                "exp1" : "(Nativo)",
+                "idioma2" : "Ingles",
+                "exp2" : "(Trinity Lv5)"
+            }
+        },
+        {
+            "skils": {
+                "sk1" : "PHP",
+                "lv1" : "80%",
+                "sk2" : "JavaScrip & Jquery",
+                "lv2" : "70%",
+                "sk3" : "Java",
+                "lv3" : "50%",
+                "sk4" : "CSS & Pothoshop",
+                "lv4" : "50%"
+
+            }
         }
             
     ]  

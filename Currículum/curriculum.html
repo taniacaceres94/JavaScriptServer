@@ -6,14 +6,175 @@
     <title>Document</title>
 </head>
 <body>
+  
     <div id="contenedor">
-        <div class="columna1">
-            <div class="imagenPerfil"></div>
-            <div class="DatosPersonales">
-                <!--tabla con datos personales-->
+        <!------------>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>Tania Cáceres</title>
+            <meta charset="utf-8">
+            <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+            <!-- FontAwesome JS -->
+            <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="css/solid.css">
+            <link rel="stylesheet" href="css/fontawesome.css">
+            <link rel="stylesheet" href="css/brands.css">
+            
+            <!-- Global CSS -->
+            <link rel="stylesheet" href="estilo/plugins/bootstrap/css/bootstrap.min.css">   
+            <!-- Theme CSS -->  
+            <link id="theme-style" rel="stylesheet" href="estilo/css/estilo.css">
+        </head> 
+        
+        <body>
+            <!--Cabecera de nombre-->
+            <div class="wrapper">
+                <div class="sidebar-wrapper">
+                    <div class="profile-container">
+                        <img id="fotico" class="profile" src="" alt="" />
+                        <h1 id="name"></h1>
+                        <h3 id="oficio"></h3>
+                    </div>
+            <!--Contacto-->       
+                    <div class="contact-container container-block">
+                        <ul class="list-unstyled contact-list">
+                            <li id="email"><i class="fas fa-envelope"></i><a id="emailA" href="mailto: yourname@email.com"></a></li>
+                            <li id="telf"><i class="fas fa-phone"></i><a id="telfA" href="tel:0123 456 789"></a></li>
+                            <li id="linkedin"><i class="fab fa-linkedin-in"></i><a id="linkedinA" href="#" target="_blank"></a></li>
+                            <li id="github"><i class="fab fa-github"></i><a id="githubA" href="#" target="_blank"></a></li>
+                            <li id="twitter"><i class="fab fa-twitter"></i><a id="twitterA" href="https://twitter.com/3rdwave_themes" target="_blank"></a></li>
+                        </ul>
+                    </div>
+            <!--FinContacto-->  
+            <!--Lenguajes-->     
+                    <div class="languages-container container-block">
+                        <h2 class="container-block-title">Languages</h2>
+                        <ul class="list-unstyled interests-list">
+                            <li>English <span class="lang-desc">(Native)</span></li>
+                            <li>French <span class="lang-desc">(Professional)</span></li>
+                            <li>Spanish <span class="lang-desc">(Professional)</span></li>
+                        </ul>
+                    </div>
+            <!--FinLenguajes-->        
+            <!--Intereses-->        
+                    <div class="interests-container container-block">
+                        <h2 class="container-block-title">Interests</h2>
+                        <ul class="list-unstyled interests-list">
+                            <li>Climbing</li>
+                            <li>Snowboarding</li>
+                            <li>Cooking</li>
+                        </ul>
+                    </div>
+            <!--FinIntereses-->        
+                    
+                </div>
+            <!---########## FIN COLUMNA DATOS #########-->    
+             <!---########## DATOS DE COSAS #########-->
+             <!--EDUCACIÓN-->
+                <div class="main-wrapper">
+                    <section class="section summary-section">
+                        <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Eduación</h2>
+                        <div class="summary">
+                            <div class="item">
+                                <div class="meta">
+                                    <div class="upper-row">
+                                        <h3 id="titulo-estudy"></h3>
+                                        <div id="fecha-estudy"></div>
+                                    </div>
+                                    <div id="sitio-estudy"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="meta">
+                                    <div class="upper-row">
+                                        <h3 id="titulo-estudy2"></h3>
+                                        <div id="fecha-estudy2"></div>
+                                    </div>
+                                    <div id="sitio-estudy2"></div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="meta">
+                                    <div class="upper-row">
+                                        <h3 id="titulo-estudy3"></h3>
+                                        <div id="fecha-estudy3"></div>
+                                    </div>
+                                    <div id="sitio-estudy3"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                <!--VIDA LABORAL-->    
+                    <section class="section experiences-section">
+                        <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiencia laboral</h2>
+                        <div class="item">
+                            <div class="meta">
+                                <div class="upper-row">
+                                    <h3 id="titulo-trabajo"></h3>
+                                    <div id="fecha-trabajo"></div>
+                                </div>
+                                <div id="sitio-trabajo"></div>
+                            </div>
+                            <div id="detalles-trabajo">
+                            </div>
+                        </div>                       
+                    </section>
+            
+
+                <!--SKILS-->    
+                    <section class="skills-section section">
+                        <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Habilidades informáticas</h2>
+                        <div class="skillset">        
+                            <div class="item">
+                                <h3 id="level-title1"></h3>
+                                <div class="progress level-bar">
+                                    <div id="barra1" class="progress-bar theme-progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>                               
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 id="level-title2"></h3>
+                                <div class="progress level-bar">
+                                    <div id="barra2" class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>                              
+                            </div><!--//item-->
+                                     
+                            <div class="item">
+                                <h3 id="level-title3"></h3>
+                                <div class="progress level-bar">
+                                        <div id="barra3" class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>                                
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 id="level-title4"></h3>
+                                <div class="progress level-bar">
+                                    <div id="barra4" class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>                                  
+                            </div><!--//item-->
+                            
+                           
+                            
+                        </div>  
+                    </section><!--//skills-section-->
+                    
+                </div><!--//main-body-->
             </div>
-        </div>
-        <div class="columna2"></div>
+         
+            <footer class="footer">
+                <div class="text-center">
+                      
+                        <small class="copyright">Tania Cáceres Santy <i class="fas fa-heart"></i><a target="_blank"></a></small>
+                </div>
+            </footer>
+                
+        </body>
+        </html> 
+        <!------------>
     </div>
     <script src="curriculum.js"></script>
 </body>
