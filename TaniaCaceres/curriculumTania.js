@@ -19,6 +19,7 @@ let objCurriculum = {
        .then(datosCV => {
             contacto = datosCV.cv[1].Contacto;
             document.getElementById("emailA").innerHTML = contacto.correo;
+            document.getElementById("emailA").href = contacto.correo;
             document.getElementById("telfA").innerHTML = contacto.telf;
             return datosCV;
        })
@@ -26,8 +27,11 @@ let objCurriculum = {
        .then(datosCV => {
             redesSociales = datosCV.cv[2].RedesSociales;
             document.getElementById("linkedinA").innerHTML = redesSociales.linkedin;
+            document.getElementById("linkedinA").href = redesSociales.linkedinURL;
             document.getElementById("githubA").innerHTML =  redesSociales.git;
-            document.getElementById("twitterA").innerHTML = redesSociales.IG
+            document.getElementById("githubA").href =  redesSociales.gitURL;
+            document.getElementById("twitterA").innerHTML = redesSociales.Twitter
+            document.getElementById("twitterA").href = redesSociales.TwitterURL
             return datosCV;
        })
 

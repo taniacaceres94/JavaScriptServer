@@ -1,7 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #545E6C;
-    background: rgb(237, 238, 238);
+    background: rgb(241, 241, 241);
+  background-image: url(../../inspiration-geometry.png);
+
+
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -112,6 +115,8 @@ body {
   
   .sidebar-wrapper .container-block {
     padding: 30px;
+ 
+    
   }
   
   .sidebar-wrapper .container-block-title {
