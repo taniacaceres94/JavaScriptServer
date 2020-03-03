@@ -6,21 +6,40 @@ let objCurriculum = {
     //Conectar con el servidor:
     conectarServidor: function(){
 
+        fetch("datos.json")
+        .then(datos => datos.json())
+        .then(datosCV =>{
+            console.log(datosCV);
+            
+              /* //Foto:
+                document.getElementById("fotico").src = innerHTML = datos[0].DatosPersonales.foto;
+                //Datos personales:
+                document.getElementById("name").innerHTML = datos[0].DatosPersonales.nombre + " " + datos[0].DatosPersonales.apellidos;
+                document.getElementById("oficio").innerHTML = datos[0].DatosPersonales.profesion;*/
+        })
+}
         //Iniciamos AJAX
         //Obtenemos la instancia del objeto XMLHttpRequest
-        var xmlhttp = new XMLHttpRequest();
+        //var xmlhttp = new XMLHttpRequest();
 
-        xmlhttp.onreadystatechange = function(){
+        /*xmlhttp.onreadystatechange = function(){
             if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
                 var jsonResponse = xmlhttp.responseText;
                 var objeto_json = JSON.parse(jsonResponse);
         
                 /*Por qué aqui no se usa el "this"?*/
-                datos = objeto_json.cv;
+              /*  datos = objeto_json.cv;
+
+                //Datos personales
+                datosPersonales = datos[0];
+                //AsyncAwait
+                function cargarFoto(datosPersonales){
+                    
+                }
 
                 /*Pintamos los datos en el HTML*/
                 //Foto:
-                document.getElementById("fotico").src = innerHTML = datos[0].DatosPersonales.foto;
+               /* document.getElementById("fotico").src = innerHTML = datos[0].DatosPersonales.foto;
                 //Datos personales:
                 document.getElementById("name").innerHTML = datos[0].DatosPersonales.nombre + " " + datos[0].DatosPersonales.apellidos;
                 document.getElementById("oficio").innerHTML = datos[0].DatosPersonales.profesion;
@@ -65,27 +84,27 @@ let objCurriculum = {
                 document.getElementById("barra3").style.width = datos[7].skils.lv3;
 
                 document.getElementById("level-title4").innerHTML = datos[7].skils.sk4;
-                document.getElementById("barra4").style.width = datos[7].skils.lv4;
+                document.getElementById("barra4").style.width = datos[7].skils.lv4;*/
             }
-        }
+       /* }*/
 
         
-        xmlhttp.open("GET", "datos.json");
-        xmlhttp.send();
+        /*xmlhttp.open("GET", "datos.json");
+        xmlhttp.send();*/
 
-    }/*,
+  /* }
      pintarFormulario: function(){
             //console.log(datos[0].DatosPersonales.nombre)
             document.getElementById("name").innerHTML = datos[0].DatosPersonales.nombre + " " + datos[0].DatosPersonales.apellidos;
 
      }*/
-}
+//}
 //Ejecutamos el método de la conexión:
-window.onload = objCurriculum.conectarServidor();
+/*window.onload = objCurriculum.conectarServidor();
 
 //Botón que nos pinta el CV
 var btn = document.getElementById("btnVerCV");
 btn.onclick = function(a){
     objCurriculum.pintarFormulario();
 }
-
+*/

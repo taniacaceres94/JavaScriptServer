@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #545E6C;
-    background: #888C8C;
+    background: rgb(237, 238, 238);
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -44,15 +44,15 @@ body {
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+  /*contenedor negro*/
   .sidebar-wrapper {
-    background: #E8E8E8;
+    background: rgb(29, 29, 29);
     position: absolute;
     right: 0;
     width: 280px;
     height: 100%;
     min-height: 800px;
-    color: #404040;
+    color: #4e4d4d;
   }
   
   .sidebar-wrapper a {
@@ -182,16 +182,16 @@ body {
     background: #fff;
     padding: 60px;
     padding-right: 300px;
-    -webkit-box-shadow: 10px 10px 14px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 14px -1px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 14px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 14px 11px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 11px 37px 0px rgba(0,0,0,0.75);
+box-shadow: 14px 11px 37px 0px rgba(0,0,0,0.75);
   }
   
   .main-wrapper .section-title {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #404040;
+    color: #626262;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -216,6 +216,26 @@ box-shadow: 10px 10px 14px -1px rgba(0,0,0,0.75);
     font-size: 16px;
     position: relative;
     top: -8px;
+  }
+
+  #iconillo{
+    color: rgb(202, 202, 202);
+  }
+
+  #idioma1{
+    color: white;
+  }
+
+  #idioma2{
+    color: white;
+  }
+  
+  #tituloIdioma{
+    color: white;
+  }
+
+  #titulo-trabajo{
+    color: rgb(52, 52, 52);
   }
   
   .main-wrapper .section-title .icon-holder .svg-inline--fa {
